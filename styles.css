@@ -1,0 +1,102 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: OCR A Std, monospace;
+    text-shadow: 0px 3px 10px rgba(211, 0, 0, 0.925);
+}
+
+
+.Whoise {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(15, 12, 12);
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 5px 10px 20px rgba(255, 1, 1, 0.377);
+    background-size: cover;
+    
+}
+
+
+.btn {
+    
+    align-items: center;
+
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 112px;
+    margin-bottom: 20px;
+    
+}
+
+.btns {
+    margin-top: 20px;
+    display: grid; grid-auto-flow: column;
+    background-color: rgb(29, 23, 23);
+    padding: 15px;
+    border-radius: 10px 10px;
+    border: 2px solid rgba(255, 0, 0, 0.664);
+    box-shadow: 4px 4px 20px rgba(255, 1, 1, 0.788);
+    text-decoration: none; 
+    color: rgb(255, 0, 0);
+}
+
+h2.Dev {
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 3px 10px rgba(211, 0, 0, 0.925);
+}
+
+a.item {
+    margin-right: 15px;
+    background-color: rgb(141, 2, 2);
+    padding: 10px;
+    margin-left: auto;
+    border-radius: 10px 10px;
+    display: grid; grid-auto-flow: column;
+    box-shadow: 4px 4px 20px rgba(255, 1, 1, 0.788);
+    margin-top: 20px;
+}
+
+.hobis {
+        flex-wrap: wrap;
+        gap: 15px;
+        margin: 30px 0;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+}
+
+.stena {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(12, 12, 12);
+    width: 500px;
+    height: 700px;
+    padding: 15px;
+    box-shadow: 0px 0px 30px rgba(255, 1, 1, 0.377);
+}
+
+
+@media screen and (max-width: 800px) {
+    .Whoise {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(15, 12, 12);
+        width: 350px;
+        height: 500px;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+        box-shadow: 5px 10px 20px rgba(255, 1, 1, 0.377);
+        background-size: cover;
+        
+    }
+}
